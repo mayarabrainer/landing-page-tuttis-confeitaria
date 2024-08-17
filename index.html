@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Tuttis Confeitaria</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="fa-solid fa-cake-candles" id="nav-logo"> Tutti's Confeitaria</i>
+
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile-menu">
+
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Descubra a Doçura em Cada 
+                    <span>Mordida</span>
+                </h1>
+
+                <p class="description">
+                    Venha experimentar a combinação perfeita de tradição e criatividade em cada doce que sai da nossa cozinha!
+                </p>
+                <div id="cta-buttons">
+                    <a href="#" class="btn-default">Ver Cardápio</a>
+
+                    <a href="tel:+1100000000" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 90000-0000
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/img/bolo-arcoiris.png" alt="banner-bolos">
+            </div>
+        </section>
+    </main>
+
+    <section id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+        <div id="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/panquecas.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                   Panquecas
+                </h3>
+
+                <span class="dish-description">
+                    Sobremsa refrescante feita com mix de sorvestes de baunilha e chocolate
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$25,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/bolo-unicornio.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                    Bolo Dream
+                </h3>
+
+                <span class="dish-description">
+                    Delicioso bolo com ganache de chocolate e mashmellow
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$30,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/milksheik.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                    Loucura de Chocolate
+                </h3>
+
+                <span class="dish-description">
+                    Deliciosa mistura de sorveste de chocolate e baunilha
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$15,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/loucura-morango.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                    Loucura de Morango
+                </h3>
+
+                <span class="dish-description">
+                    Deliciosa torta de baunilha com morango
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$10,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/laranja.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                    Tentação de Laranja
+                </h3>
+
+                <span class="dish-description">
+                    Delicioso bolo de laranja com toque de chocolate amargo
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$99,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/img/chocolate.png" class="dish-image" alt="">
+
+                <h3 class="dish-title">
+                    Loucura de Manga
+                </h3>
+
+                <span class="dish-description">
+                    Delicioso bolo de laranja com cobertura de Manga
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$19,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <img src="src/img/chef.png" id="testimonial_chef" alt="">
+
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Depoimentos
+            </h2>
+            <h3 class="section-subtitle">
+                O que os clientes falam sobre nós
+            </h3>
+
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="src/img/Avatar1.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p class="name">
+                            Alice Matteo
+                            <span class="feedback-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "A confeitaria me encantou desde o primeiro momento. A variedade de doces é incrível, com opções para todos os gostos. Os bolos são macios, saborosos, e decorados com tanto carinho que é quase impossível escolher só um. Além disso, o atendimento foi impecável, com uma equipe sempre atenciosa e pronta para ajudar. Recomendo fortemente para quem busca qualidade e um ambiente acolhedor."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <img src="src/img/Avatar2.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p class="name">
+                            Antonella Matteo
+                            <span class="feedback-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "Visitar essa confeitaria foi uma experiência maravilhosa. Os doces são frescos e preparados com ingredientes de alta qualidade. O ambiente é aconchegante e perfeito para uma tarde agradável. Adorei especialmente os macarons, que estavam no ponto certo, com uma crocância delicada e um recheio delicioso. Sem dúvida, voltarei mais vezes para experimentar outras delícias que eles oferecem."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+        </div>
+    </section>
+</main>
+
+<footer>
+
+    <div id="footer_items">
+
+        <span id="copyright">
+            &copy 2024 Mayara Brainer
+        </span>
+
+        <div class="social-media-buttons">
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
