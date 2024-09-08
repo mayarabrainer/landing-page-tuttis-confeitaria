@@ -30,13 +30,13 @@
 
 .dish-image {
     display: flex;
-    width: 140px;  /* Corrigido de 140x para 140px */
+    width: 140px;  
     height: 140px;
-    transition: transform 0.3s ease;  /* Adicionando transição para o efeito de zoom */
+    transition: transform 0.3s ease; 
 }
 
 .zoomed {
-    transform: scale(2.0);  /* Aumenta a imagem em 1.5 vezes */
+    transform: scale(2.0); 
     cursor: zoom-in;
 }
 
@@ -53,7 +53,6 @@
     right: -10px;
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
-   
 }
 
 @media screen and (max-width: 450px) {
@@ -70,7 +69,6 @@
 
 .dish-rate i {
     color: #d83762;
-   
 }
 
 .dish-price {
@@ -89,13 +87,12 @@
    .dish {
     width: calc(50% - 12px);
    }
-
 }
 
 @media screen and (max-width: 600px) {
     .dish {
         width: 60%;
-       }
+    }
 
     #menu .title {
         text-align: center;
@@ -105,6 +102,3 @@
         text-align: center;
     }
 }
-
-
-

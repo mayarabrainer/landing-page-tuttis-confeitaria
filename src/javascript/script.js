@@ -1,10 +1,11 @@
-
 $(document).ready(function() {
+    
     $('#mobile-btn').on('click', function () {
         $('#mobile-menu').toggleClass('active');
         $('#mobile-btn').find('i').toggleClass('fa-x');
     });
 
+    
     const sections = $('section');
     const navItems = $('.nav-item');
 
@@ -23,7 +24,7 @@ $(document).ready(function() {
         sections.each(function(i) {
             const section = $(this);
             const sectionTop = section.offset().top - 96;
-            const sectionBottom = sectionTop+ section.outerHeight();
+            const sectionBottom = sectionTop + section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
                 activeSectionIndex = i;
@@ -35,6 +36,7 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
+   
     ScrollReveal().reveal('#cta', {
         origin: 'left',
         duration: 2000,
@@ -57,5 +59,12 @@ $(document).ready(function() {
         origin: 'right',
         duration: 1000,
         distance: '20%'
-    })
+    });
+
+    
+    $('.dish-image').on('mouseenter', function() {
+        $(this).addClass('zoomed');
+    }).on('mouseleave', function() {
+        $(this).removeClass('zoomed');
+    });
 });
