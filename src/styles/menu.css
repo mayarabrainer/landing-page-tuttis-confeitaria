@@ -30,13 +30,13 @@
 
 .dish-image {
     display: flex;
-    width: 140px;  /* Corrigido de 140x para 140px */
+    width: 140px;  
     height: 140px;
-    transition: transform 0.3s ease;  /* Adicionando transição para o efeito de zoom */
+    transition: transform 0.3s ease; 
 }
 
 .zoomed {
-    transform: scale(2.0);  /* Aumenta a imagem em 1.5 vezes */
+    transform: scale(2.0);  
     cursor: zoom-in;
 }
 
