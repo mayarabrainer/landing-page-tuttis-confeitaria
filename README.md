@@ -17,9 +17,7 @@ A página foi desenvolvida com design responsivo e interatividade, utilizando v�
 - **ScrollReveal**: Animações de aparição de elementos conforme a página é rolada.
 - **Interatividade com Ícones**: Ícones visualmente atraentes que melhoram a usabilidade.
 
-## 🚀 Como Utilizar
-1. Clone o repositório.
-2. Abra o arquivo `index.html` em um navegador.
+Acesse o site: https://vercel.com/mayaras-projects-76bd3140/landing-page-tuttis-confeitaria
 
 ## 👩‍💻 Créditos
 Desenvolvido por Mayara Brainer.
